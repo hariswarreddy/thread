@@ -1,8 +1,11 @@
 import React from 'react'
+import Loader from './components/common/Loader';
 
 const App = () => {
   return (
-    <div>App</div>
+    <>
+      <Loader/>
+    </>
   )
 }
 
