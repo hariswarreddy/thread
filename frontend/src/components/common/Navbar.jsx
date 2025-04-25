@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
   return (
       <>
-          <Stack flexDirection={'row'} justifyContent={"space-around"} maxWidth={"100%"} alignItems={'center'}>
+          <Stack flexDirection={'row'} justifyContent={"space-around"}  maxWidth={"100%"} alignItems={"center"} className='navbar'>
               <Link to={"/"} ><GoHomeFill size={32} /></Link>
               <Link to={"/search"}><IoIosSearch size={32} /></Link>
               <Link to={"/edit"}><TbEdit size={32} /></Link>
